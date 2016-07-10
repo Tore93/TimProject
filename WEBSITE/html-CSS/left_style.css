@@ -1,0 +1,46 @@
+#CENTER_LEFT{
+    position: absolute;
+    float: left;
+    max-width: 25%;
+}
+
+#CENTER_LEFT a{
+     color: #307c9c;
+}
+
+
+#CENTER_LEFT:not(a){
+    color:black;
+}
+
+#CENTER_LEFT a:hover{
+    text-shadow: 3px 3px 20px white;
+}
+
+#CENTER_LEFT ul{
+    list-style: none;
+    margin:5;
+    padding:0;
+    color: #307c9c;
+
+}
+
+#CENTER_LEFT .main_landmark {
+    
+    background-color:#307c9c;
+   
+    margin:5px;
+    padding: 5px;
+    background-size: auto;
+    
+    font-family: "Avant Garde" , Avantgarde, "Century Gothic", CenturyGothic, "Apple Gothic", sans-serif;
+    font-size: 20px;
+    color: #b1d7e7;
+    font-weight:bold;
+    
+    text-align: center;
+
+    display: block;
+ 
+    
+}
