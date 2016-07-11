@@ -7,7 +7,7 @@
 	}else {
     //echo "Successful connection"; // connection ok
     //# extract results mysqli_result::fetch_array
-    $query = "SELECT Id,Name FROM Device_Category";
+    $query = "SELECT Id,Name, Path FROM Device_Category , Photo WHERE Device_Category.Name=Photo.Name";
     //query execution
     $result = $mysqli->query($query);
     //if there are data available
