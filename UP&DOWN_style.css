@@ -1,0 +1,48 @@
+
+#upTimImg{
+    height: 200px;
+    width: 100%;
+}
+
+
+#TimLogo{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 200;
+}
+
+
+
+#UP {
+  display: block;
+}
+
+#DOWN{
+    
+    background-color: #307c9c;
+    width: 100%;
+    text-align: center;
+    
+    display: block;
+}
+
+
+#DOWN a{
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+    
+}
+
+#DOWN a>img:hover{
+    box-shadow: 0 0 10px #ccc; 
+    transform: scale(1.2);
+}
+
+#DOWN img{
+    height: auto;
+}
+
+
